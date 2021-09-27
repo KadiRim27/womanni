@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wrapper {
+  max-width: 1363px;
+  margin: 0 auto;
+  display: flex;
+  height: 1649px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.header__text {
+  font-family: ‘Enriqueta’, arial, serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 25px;
+}
+
+.block1 {
+  background-color: #f8eded;
+}
+
+p {
+  display: inline-block;
+  font-size: 20px;
+  font-family: ‘Signika’, sans-serif;
+  margin: 5px;
+}
+
+.content__block2vn {
+  background-color: #f8eded;
+}
+
+.logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagg {
+  background-color: #f8eded;
+  text-align: center;
+}
+
+.imag {
+  display: inline-flex;
+}
+
+.imag1 {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.paragraf {
+  font-size: 22px;
+  color: darkred;
+  font: bold;
+}
+
+.imag2, img {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  margin: 10px 0px 10px 0px;
+}
+
+.data {
+  color: darkred;
+  text-shadow: 0 0 1em #e6a9a9;
+}
+
+.podarok {
+  color: blueviolet;
+}
+
+.blackniz {
+  color: darkred;
+  background-color: #eedede;
+}
+
+.content__3 {
+  /*--------------------*/
+  margin: 45px 40px 0px 0px;
+  /*-отступ внизу-*/
+  height: 44px;
+  display: inline-block;
+  line-height: 44px;
+  padding: 0px 30px;
+  border-radius: 24px;
+  background-color: #857775;
+  box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+
+.content-battomm {
+  /*--------------------*/
+  margin: 38px 0px 38px 0px;
+  /*-отступ внизу-*/
+  height: 44px;
+  display: inline-block;
+  line-height: 44px;
+  padding: 0px 30px;
+  border-radius: 24px;
+  background-color: #eeb9d6;
+  box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+
+.conten {
+  padding: 0px 30px 0px 0px;
+  background: url("../img/ico/shape_2_9.png") right no-repeat;
+}
+
+.content-battomm:hover {
+  background-color: #511e23;
+}
+
+.content-battomm:active {
+  position: relative;
+  top: 3px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+}
